@@ -19,6 +19,7 @@
 		0061D8F41FD9BA0700ED6C7D /* ABusinessObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0061D8F31FD9BA0700ED6C7D /* ABusinessObject.swift */; };
 		0061D8F61FD9C19000ED6C7D /* Lpars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0061D8F51FD9C19000ED6C7D /* Lpars.swift */; };
 		0061D8F81FD9C2F800ED6C7D /* LparSubfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0061D8F71FD9C2F800ED6C7D /* LparSubfileVC.swift */; };
+		006593A51FE0716000860558 /* StaticVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006593A41FE0715F00860558 /* StaticVariables.swift */; };
 		007088CC1FDAB7E8004CD50F /* mmBusinessObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007088C91FDAB7E7004CD50F /* mmBusinessObject.swift */; };
 		007088CD1FDAB7E8004CD50F /* mmCoreDataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007088CA1FDAB7E8004CD50F /* mmCoreDataExtensions.swift */; };
 		007088CE1FDAB7E8004CD50F /* mmStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007088CB1FDAB7E8004CD50F /* mmStringExtensions.swift */; };
@@ -42,6 +43,7 @@
 		0061D8F31FD9BA0700ED6C7D /* ABusinessObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABusinessObject.swift; sourceTree = "<group>"; };
 		0061D8F51FD9C19000ED6C7D /* Lpars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lpars.swift; sourceTree = "<group>"; };
 		0061D8F71FD9C2F800ED6C7D /* LparSubfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LparSubfileVC.swift; sourceTree = "<group>"; };
+		006593A41FE0715F00860558 /* StaticVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticVariables.swift; sourceTree = "<group>"; };
 		007088C91FDAB7E7004CD50F /* mmBusinessObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = mmBusinessObject.swift; path = ../../../mmBusinessObject.swift; sourceTree = "<group>"; };
 		007088CA1FDAB7E8004CD50F /* mmCoreDataExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = mmCoreDataExtensions.swift; path = ../../../mmCoreDataExtensions.swift; sourceTree = "<group>"; };
 		007088CB1FDAB7E8004CD50F /* mmStringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = mmStringExtensions.swift; path = ../../../mmStringExtensions.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				007088CB1FDAB7E8004CD50F /* mmStringExtensions.swift */,
 				0061D8F31FD9BA0700ED6C7D /* ABusinessObject.swift */,
 				0061D8F51FD9C19000ED6C7D /* Lpars.swift */,
+				006593A41FE0715F00860558 /* StaticVariables.swift */,
 			);
 			path = BusinessObjects;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				0061D8D01FD9B4F000ED6C7D /* FirstViewController.swift in Sources */,
 				0061D8F61FD9C19000ED6C7D /* Lpars.swift in Sources */,
 				0061D8F41FD9BA0700ED6C7D /* ABusinessObject.swift in Sources */,
+				006593A51FE0716000860558 /* StaticVariables.swift in Sources */,
 				0061D8E31FD9B53800ED6C7D /* Model.xcdatamodeld in Sources */,
 				007088CC1FDAB7E8004CD50F /* mmBusinessObject.swift in Sources */,
 				007088D11FDAD28D004CD50F /* LparEntity+CoreDataClass.swift in Sources */,

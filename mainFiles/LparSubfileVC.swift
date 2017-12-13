@@ -95,7 +95,15 @@ class LparSubfileVC: UITableViewController {
         }        //-------------
         return cell
     }
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "detailViewSegue" {
+            let detailTableVC = segue.destination as! DetailTableVC
+            let indexPath = self.tableView.indexPathForSelectedRow
+            detailTableVC.lparDetail = self.lparList[indexPath!.row]
+        }
+        
+        
+    }
 
     @IBAction func goBack(_ sender: Any) {
         dismiss(animated: true )
