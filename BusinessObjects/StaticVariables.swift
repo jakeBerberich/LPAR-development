@@ -10,14 +10,19 @@ import Foundation
 import UIKit
 
 
-struct lparLocation {
-    let hmc : String
-    let location: String
-    let structure: String
+struct lparStatic {
+    let server : String
+    let dataCenterSide: String
+    let rackLocation: String
+    let dataCenter: String
+    let ibmPowerClass: String
 }
 
-let hmc04 = lparLocation  (hmc: "hmc04", location: "High Point", structure: "Physical")
-let hmc02b = lparLocation(hmc: "hmc02b", location: "Greensboro", structure: "Physical")
-let hmc8a = lparLocation(hmc: "hmc8a", location: "Greensboro", structure: "VIOS")
-let hmc05 = lparLocation(hmc: "hmc04",  location: "Denver" , structure: "Physical")
-let fsm01 = lparLocation(hmc: "fsm01",  location: "Greensboro", structure: "VIOS")
+let bishop =  lparStatic(server: "Bishop", dataCenterSide: "A", rackLocation: "A3E4", dataCenter: "Greensboro", ibmPowerClass: "Power 8" )
+let chappie =  lparStatic(server: "Chappie", dataCenterSide: "A", rackLocation: "A3E5", dataCenter: "Greensboro", ibmPowerClass: "Power 8" )
+let gort =  lparStatic(server: "Gort", dataCenterSide: "B", rackLocation: "A3E5", dataCenter: "Greensboro", ibmPowerClass: "Power 8" )
+let sonny =  lparStatic(server: "Sonny", dataCenterSide: "B", rackLocation: "B3E3", dataCenter: "Greensboro", ibmPowerClass: "Power 6" )
+let fsm01 =  lparStatic(server: "FSM01", dataCenterSide: "A", rackLocation: "A1E1", dataCenter: "Greensboro", ibmPowerClass: "Blade" )
+let rosie =  lparStatic(server: "Rosie", dataCenterSide: "Central", rackLocation: "*TBD", dataCenter: "High Point", ibmPowerClass: "Power 6" )
+let bernie =  lparStatic(server: "Bernie", dataCenterSide: "Central", rackLocation: "*TBD", dataCenter: "High Point", ibmPowerClass: "Power 7" )
+let dcx =  lparStatic(server: "DCX", dataCenterSide: "Central", rackLocation: "*TBD", dataCenter: "Denver", ibmPowerClass: "Power 6" )
