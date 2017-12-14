@@ -26,3 +26,17 @@ let fsm01 =  lparStatic(server: "FSM01", dataCenterSide: "A", rackLocation: "A1E
 let rosie =  lparStatic(server: "Rosie", dataCenterSide: "Central", rackLocation: "*TBD", dataCenter: "High Point", ibmPowerClass: "Power 6" )
 let bernie =  lparStatic(server: "Bernie", dataCenterSide: "Central", rackLocation: "*TBD", dataCenter: "High Point", ibmPowerClass: "Power 7" )
 let dcx =  lparStatic(server: "DCX", dataCenterSide: "Central", rackLocation: "*TBD", dataCenter: "Denver", ibmPowerClass: "Power 6" )
+
+let lparArray = [bishop, chappie, gort, sonny, fsm01, rosie, bernie, dcx]
+
+struct hmcStatic {
+    let hmc: String
+    let ipAddress: String
+}
+let hmc01 = hmcStatic(hmc: "HMC01", ipAddress: "10.98.32.201")
+let hmc02b = hmcStatic(hmc: "HMC02B", ipAddress: "10.98.32.202")
+let hmcp8a = hmcStatic(hmc: "HMCP8A", ipAddress: "10.98.32.51")
+let hmc05 = hmcStatic(hmc: "HMC05", ipAddress: "10.108.32.12")
+
+let hmcArray = [hmc01, hmc02b, hmcp8a, hmc05]
+
