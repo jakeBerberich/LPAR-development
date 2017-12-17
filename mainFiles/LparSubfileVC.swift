@@ -20,8 +20,7 @@ class LparSubfileVC: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        print(sortValue)
+      
         
        
         
@@ -75,7 +74,7 @@ class LparSubfileVC: UITableViewController {
         switch sortValue {
         case "lpar":
             cell.textLabel?.text = "\(lparEntity.lpar) : \(lparEntity.application)"
-            cell .detailTextLabel?.text =  "\(lparEntity.hmcName): \(lparEntity.serverName) : \(lparEntity.application)"
+            cell .detailTextLabel?.text = ("HMC:  \(lparEntity.hmcName)  Server: \(lparEntity.serverName)   Partition: \(lparEntity.partitionID)")
         case "hmc":
             cell.textLabel?.text = "\(lparEntity.lpar) : \(lparEntity.hmcName)"
             cell .detailTextLabel?.text =  " \(lparEntity.serverName) : \(lparEntity.application)"

@@ -19,8 +19,7 @@ class serverVC: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(serverArray)
-        print(serverArray[0].dataCenter)
+       
         
     }
     

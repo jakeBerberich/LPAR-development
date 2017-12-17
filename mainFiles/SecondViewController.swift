@@ -9,10 +9,17 @@
 import UIKit
 
 class SecondViewController: UIViewController {
-
+ var lpar = Lpars() // reference to Lpars business controller
+    
+   var  lparList = Array<LparEntity>()   // holds the arry of Lpar rows
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+          self.lparList = self.lpar.getAllEntities()
+        
+  
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

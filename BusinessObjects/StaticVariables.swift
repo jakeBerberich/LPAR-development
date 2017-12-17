@@ -22,12 +22,12 @@ let bishop =  lparStatic(server: "Bishop", dataCenterSide: "A", rackLocation: "A
 let chappie =  lparStatic(server: "Chappie", dataCenterSide: "A", rackLocation: "A3E5", dataCenter: "Greensboro", ibmPowerClass: "Power 8" )
 let gort =  lparStatic(server: "Gort", dataCenterSide: "B", rackLocation: "A3E5", dataCenter: "Greensboro", ibmPowerClass: "Power 8" )
 let sonny =  lparStatic(server: "Sonny", dataCenterSide: "B", rackLocation: "B3E3", dataCenter: "Greensboro", ibmPowerClass: "Power 6" )
-let fsm01 =  lparStatic(server: "FSM01", dataCenterSide: "A", rackLocation: "A1E1", dataCenter: "Greensboro", ibmPowerClass: "Blade" )
+let fsm =  lparStatic(server: "FSM01", dataCenterSide: "A", rackLocation: "A1E1", dataCenter: "Greensboro", ibmPowerClass: "Blade" )
 let rosie =  lparStatic(server: "Rosie", dataCenterSide: "Central", rackLocation: "*TBD", dataCenter: "High Point", ibmPowerClass: "Power 6" )
 let bernie =  lparStatic(server: "Bernie", dataCenterSide: "Central", rackLocation: "*TBD", dataCenter: "High Point", ibmPowerClass: "Power 7" )
 let dcx =  lparStatic(server: "DCX", dataCenterSide: "Central", rackLocation: "*TBD", dataCenter: "Denver", ibmPowerClass: "Power 6" )
 
-let lparArray = [bishop, chappie, gort, sonny, fsm01, rosie, bernie, dcx]
+let lparArray = [bishop, chappie, gort, sonny, fsm, rosie, bernie, dcx]
 
 struct hmcStatic {
     let hmc: String
