@@ -37,7 +37,7 @@ class FirstViewController: UIViewController {
             sortOption = "lpar"
         }
         
-        print(sortOption)
+       // print(sortOption)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
