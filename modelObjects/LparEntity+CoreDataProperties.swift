@@ -30,11 +30,15 @@ extension LparEntity {
     @NSManaged public var mainStorage: String
     @NSManaged public var model: String
     @NSManaged public var numberProcessors: String
-    @NSManaged public var osRelease: String
+    @NSManaged public var os400Release: String
+    @NSManaged public var partitionID: String
     @NSManaged public var processorFeature: String
     @NSManaged public var serialNumber: String
     @NSManaged public var serverName: String
+    @NSManaged public var serverPartitions: String
+    @NSManaged public var serverProcessors: String
     @NSManaged public var systemAsp: String
     @NSManaged public var systemType: String
+    @NSManaged public var pgroup: String
 
 }

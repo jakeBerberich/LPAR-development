@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13533" systemVersion="17B1003" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17C88" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="LparEntity" representedClassName=".LparEntity" syncable="YES">
         <attribute name="application" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="auditExternal" optional="YES" attributeType="String" syncable="YES"/>
@@ -15,12 +15,17 @@
         <attribute name="model" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="numberProcessors" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="os400Release" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="partitionID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pgroup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="processsorFeature" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="serialNumber" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="serverName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="serverPartitions" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="serverProcessors" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="systemAsp" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="systemType" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="LparEntity" positionX="-45" positionY="0" width="128" height="315"/>
+        <element name="LparEntity" positionX="-45" positionY="0" width="128" height="390"/>
     </elements>
 </model>
